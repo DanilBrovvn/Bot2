@@ -7,7 +7,7 @@ import asyncio
 import logging
 
 # Загрузка переменных окружения из .env
-load_dotenv(dotenv_path=r"F:\pip install aiogram\.env")
+load_dotenv(dotenv_path=r"F:D:\Program Files (x86)\.env")
 API_TOKEN = os.getenv('API_TOKEN')
 ADMIN_IDS = os.getenv('ADMIN_IDS')
 ADMIN_IDS = [int(x) for x in ADMIN_IDS.split(',')] if ADMIN_IDS else []
